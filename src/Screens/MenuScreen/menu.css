@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu|Montserrat&display=swap");
+
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Lato";
+}
+
+.navbar-brand {
+  font-family: "Pacifico";
+  font-size: 35px;
+  color: orange !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin: 15px;
+  color: #000 !important;
+  font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.active .nav-link {
+  color: orange !important;
+}
+
+.menu-right-btn {
+  padding: 13px 46px;
+  margin-right: 4%;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+}
+
+.site-content {
+  background-image: url("https://images.pexels.com/photos/543733/pexels-photo-543733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site-title,
+.site-desc {
+  color: yellow;
+  font-family: "Righteous";
+  text-align: center;
+}
+
+.site-title {
+  margin-top: 18%;
+  margin-bottom: 2%;
+  font-size: 60px;
+}
+
+.site-desc {
+  font-size: 16px;
+}
+
+.site-btn1 {
+  margin-left: 2%;
+  background-color: #2e2d31;
+}
+
+.site-btn2 {
+  background-color: #2e2d31;
+  margin-left: 40px;
+}
+
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+/* SECTION-1 */
+
+.container {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.single-content {
+  position: relative;
+  transition: 0.3s;
+  /* box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8); */
+  box-shadow: 13px 13px 14px 1px rgba(240, 177, 17, 0.62);
+}
+
+.single-content .text-content,
+.single-content:after {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}
+
+.single-content:after {
+  content: "";
+  display: block;
+  background: orange;
+  top: 20px;
+  bottom: 20px;
+  opacity: 0;
+  transform: rotate3d(-1, 1, 0, 100deg);
+  transition: 0.4s;
+}
+
+.single-content:hover:after {
+  opacity: 9;
+  transform: rotate3d(0, 0, 0, 0deg);
+}
+
+.single-content img {
+  width: 100%;
+  height: auto;
+}
+
+.text-content {
+  top: 45%;
+  opacity: 0;
+  z-index: 1;
+  transform: translate(10%, -30%);
+  transition: 0.3s;
+  text-align: center;
+  color: #222;
+}
+
+.text-content h4 {
+  font-family: "Righteous";
+}
+
+.single-content:hover .text-content {
+  opacity: 1;
+  transform: translate(0, -50%);
+  transition-delay: 0.3s;
+}
+
+/* Footer */
+
+.section-5 h4 {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: orange;
+}
+
+.section-5 h4 i {
+  color: red !important;
+}
