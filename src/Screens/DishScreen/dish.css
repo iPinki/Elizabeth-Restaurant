@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu|Montserrat&display=swap");
 
+html{
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   padding: 0%;
   margin: 0%;
@@ -35,6 +40,10 @@ body {
 }
 
 /* Breadcrumb */
+.breadcrumb {
+  background-color: #353A40;
+}
+
 .breadcrumb-item{
     font-family: "Roboto Condensed";
     font-size: 18px;
@@ -42,12 +51,12 @@ body {
 }
 
 .breadcrumb-item a{
-    color: #000 !important;
+    color: orange !important;
 }
 
 
 .breadcrumb-item:hover a{
-    color: orange !important;
+    color: #000 !important;
     text-decoration: none;
 }
 
@@ -83,6 +92,13 @@ body {
 }
 
 /* Footer */
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: orange;
+}
 
 .section-5 h4 {
     margin-top: 15px;
