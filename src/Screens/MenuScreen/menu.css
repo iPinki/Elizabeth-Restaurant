@@ -40,6 +40,42 @@ body {
   background-size: cover;
 }
 
+.SALAD {
+  background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.SNACK {
+  background-image: url("https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position-y: -150px;
+}
+
+.SOUP {
+  background-image: url("https://images.pexels.com/photos/5794/soup-leek-potato.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position-y: -200px;
+}
+
+.MAIN_DISH {
+  background-image: url("https://images.pexels.com/photos/299348/pexels-photo-299348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position-y: -375px;
+}
+
+.DESSERT {
+  background-image: url("https://images.pexels.com/photos/827513/pexels-photo-827513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position-y: -350px;
+}
+/* 
+.DRINK {
+}
+
+.BREAKFAST {
+}
+
+.LUNCH {
+}
+
+.HOLIDAY {
+} */
+
 .site-title,
 .site-desc {
   color: yellow;
@@ -63,28 +99,18 @@ body {
   white-space: nowrap;
 }
 
-/*.site-btn2 {*/
-/*  background-color: #2e2d31;*/
-/*  margin-left: 40px;*/
-/*}*/
-
-/*.site-btn1,*/
-/*.site-btn2 {*/
-/*margin-top: 5%;*/
-/*margin-bottom: 15%;*/
-/*}*/
-
 /* SECTION-1 */
 
 .container {
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
 }
 
 .single-content {
   position: relative;
   transition: 0.3s;
-  box-shadow: 8px 8px 14px 1px rgba(253, 161, 25, 0.69);
+  box-shadow: 8px 8px 7px 1px rgb(125, 119, 119);
 }
 
 .single-content .text-content,
@@ -135,8 +161,6 @@ body {
   transition-delay: 0.3s;
 }
 
-/* Footer */
-
 .section-5 h4 {
   margin-top: 15px;
   font-family: "Montserrat";
@@ -144,7 +168,7 @@ body {
   color: orange;
 }
 
-.section-5 h4 i {
+.section-5 h4 em {
   color: red !important;
 }
 
@@ -158,4 +182,26 @@ body {
     rgba(43, 43, 43, 0) 0%,
     rgba(43, 43, 43, 0.7) 100%
   );
+}
+.my-row {
+  margin: 0;
+}
+.my-col {
+  margin: 20px 0;
+}
+
+.hide {
+  display: none;
+}
+
+.page-btn {
+  width: 150px;
+  font-size: large;
+  background-color: #343a40 !important;
+}
+
+.btn-dis {
+  background-color: #949393ad !important;
+  color: black !important;
+  border-color: black;
 }

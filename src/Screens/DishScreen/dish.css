@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu|Montserrat&display=swap");
 
-html{
+html {
   position: relative;
   min-height: 100%;
 }
@@ -41,31 +41,26 @@ body {
 
 /* Breadcrumb */
 .breadcrumb {
-  background-color: #353A40;
+  background-color: #353a40;
+  padding-left: 400px;
 }
 
-.breadcrumb-item{
-    font-family: "Roboto Condensed";
-    font-size: 18px;
-    margin: 8px;
+.breadcrumb-item {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  margin: 8px;
 }
 
-.breadcrumb-item a{
-    color: orange !important;
+.breadcrumb-item a {
+  color: orange !important;
 }
 
-
-.breadcrumb-item:hover a{
-    color: #000 !important;
-    text-decoration: none;
+.breadcrumb-item:hover a {
+  color: #000 !important;
+  text-decoration: none;
 }
-
 
 /* Section-4 */
-
-.section-4 {
-  margin-top: -1%;
-}
 
 .section-4 .row .col-md-8,
 .col-md-4 {
@@ -91,9 +86,14 @@ body {
   font-size: 40px;
 }
 
+.price span{
+  color: yellow;
+  font-size: 16px;
+}
+
 /* Footer */
 
-.footer{
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -101,12 +101,21 @@ body {
 }
 
 .section-5 h4 {
-    margin-top: 15px;
-    font-family: "Montserrat";
-    font-size: 20px;
-    color: orange;
-  }
-  
-  .section-5 h4 i {
-    color: red !important;
-  }
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: orange;
+}
+
+.section-5 h4 i {
+  color: red !important;
+}
+
+
+.owl-item{
+  width: 150px !important;
+}
+
+.clearfix{
+  height: 150px;
+}
