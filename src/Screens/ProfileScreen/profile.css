@@ -1,74 +1,88 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu|Montserrat&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  padding: 0%;
-  margin: 0%;
-  font-family: "Lato";
+    padding: 0%;
+    margin: 0%;
+    font-family: "Lato";
 }
 
-main{
-  height: 100%;
+main {
+    height: 100%;
+}
+
+.clear {
+    margin: 100px;
 }
 
 .navbar-brand {
-  font-family: "Pacifico";
-  font-size: 35px;
-  color: orange !important;
+    font-family: "Pacifico";
+    font-size: 35px;
+    color: orange !important;
 }
 
 .nav-link {
-  font-size: 18px;
-  margin: 15px;
-  color: #000 !important;
-  font-family: "Roboto Condensed";
+    font-size: 18px;
+    margin: 15px;
+    color: #000 !important;
+    font-family: "Roboto Condensed";
 }
 
 .nav-link:hover {
-  color: orange !important;
+    color: orange !important;
 }
 
 .active .nav-link {
-  color: orange !important;
+    color: orange !important;
 }
 
 .menu-right-btn {
-  padding: 13px 46px;
-  margin-right: 4%;
-  background-color: transparent;
-  transition: all 300ms ease-in;
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
 }
 
-table{
-  color: #fff !important;
+/* Section 1 */
+
+.section-1 {
+    background: #ffebca;
+}
+
+.h1_logout {
+    padding: 50px !important;
+}
+
+table {
+    color: #fff !important;
 }
 
 /* Footer */
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: orange;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: orange;
 }
 
 .section-5 h4 {
-  margin-top: 15px;
-  font-family: "Montserrat";
-  font-size: 20px;
-  color: orange;
+    margin-top: 15px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: orange;
 }
 
 .section-5 h4 i {
-  color: red !important;
+    color: red !important;
 }
