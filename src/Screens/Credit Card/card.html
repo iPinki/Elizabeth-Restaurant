@@ -86,137 +86,133 @@
         </header>
 
         <main>
-            <div class="container">
-                <div class="wrapper-card">
-                    <div class="sendmoney_wrapper-sender">
-                        <div class="sendmoney_wrapper-frontSide">
-                            <p class="sendmoney_frontSide-title">Elizabeth Bank</p>
-                            <div class="sendmoney_frontSide-form">
-                                <div class="sendmoney_input">
-                                    <div class="input">
-                                        <span class="input--nao input-group"
-                                            ><input
-                                                id="input_name_0"
-                                                name="sender_cardNum"
-                                                data-vv-validate-on="blur"
-                                                inputmode="tel"
-                                                autocomplete="off"
-                                                class="input__field input__field--nao input_type_text"
-                                                data-mask="9999 9999 9999 9999"
-                                                maxlength="19"
-                                                aria-required="true"
-                                                aria-invalid="false"
-                                            />
-                                            <label
-                                                for="input_name_0"
-                                                class="input__label input__label--nao"
-                                                ><span
-                                                    class="input__label-content input__label-content--nao"
-                                                    >Номер карты
-                                                    отправителя</span
-                                                ></label
-                                            ></span
-                                        >
-                                    </div>
-                                </div>
-                                <div class="sendmoney_frontSide-cardExpire">
+            <div class="section-1 bg mt-5">
+                <div class="container">
+                    <h1 class="payment-title"><span>Order payment:</span></h1>
+                    <div class="wrapper-card">
+                        <div class="sendmoney_wrapper-sender">
+                            <div class="sendmoney_wrapper-frontSide">
+                                <p class="sendmoney_frontSide-title">
+                                    Elizabeth Bank
+                                </p>
+                                <div class="sendmoney_frontSide-form">
                                     <div class="sendmoney_input">
                                         <div class="input">
-                                            <span class="input--nao input-group"
-                                                ><input
-                                                    id="input_name_2"
-                                                    name="expiredMonth"
-                                                    inputmode="tel"
+                                            <label for="input_name_0"
+                                                >Номер карты отправителя</label
+                                            >
+                                            <span
+                                                class="input--nao input-group"
+                                            >
+                                                <input
+                                                    id="input_name_0"
+                                                    name="sender_cardNum"
                                                     data-vv-validate-on="blur"
+                                                    inputmode="tel"
                                                     autocomplete="off"
                                                     class="input__field input__field--nao input_type_text"
-                                                    data-mask="99"
-                                                    maxlength="2"
+                                                    data-mask="9999 9999 9999 9999"
+                                                    maxlength="19"
                                                     aria-required="true"
                                                     aria-invalid="false"
                                                 />
-                                                <label
-                                                    for="input_name_2"
-                                                    class="input__label input__label--nao"
-                                                    ><span
-                                                        class="input__label-content input__label-content--nao"
-                                                        >MM</span
-                                                    ></label
-                                                ></span
-                                            >
+                                            </span>
                                         </div>
                                     </div>
-                                    <div class="sendmoney_input">
-                                        <div class="input">
-                                            <span class="input--nao input-group"
-                                                ><input
-                                                    id="input_name_3"
-                                                    name="expiredYear"
-                                                    inputmode="tel"
-                                                    data-vv-validate-on="blur"
-                                                    autocomplete="off"
-                                                    class="input__field input__field--nao input_type_text"
-                                                    data-mask="99"
-                                                    maxlength="2"
-                                                    aria-required="true"
-                                                    aria-invalid="false"
-                                                />
-                                                <label
-                                                    for="input_name_3"
-                                                    class="input__label input__label--nao"
-                                                    ><span
-                                                        class="input__label-content input__label-content--nao"
-                                                        >ГГ</span
-                                                    ></label
-                                                ></span
-                                            >
+                                    <div class="sendmoney_frontSide-cardExpire">
+                                        <div class="sendmoney_input">
+                                            <div class="input">
+                                                <label for="input_name_2"
+                                                    >MM</label
+                                                >
+                                                <span
+                                                    class="input--nao input-group"
+                                                >
+                                                    <input
+                                                        id="input_name_2"
+                                                        name="expiredMonth"
+                                                        inputmode="tel"
+                                                        data-vv-validate-on="blur"
+                                                        autocomplete="off"
+                                                        class="input__field input__field--nao input_type_text"
+                                                        data-mask="99"
+                                                        maxlength="2"
+                                                        aria-required="true"
+                                                        aria-invalid="false"
+                                                    />
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="sendmoney_input">
+                                            <div class="input">
+                                                <label for="input_name_3"
+                                                    >GG</label
+                                                >
+                                                <span
+                                                    class="input--nao input-group"
+                                                >
+                                                    <input
+                                                        id="input_name_3"
+                                                        name="expiredYear"
+                                                        inputmode="tel"
+                                                        data-vv-validate-on="blur"
+                                                        autocomplete="off"
+                                                        class="input__field input__field--nao input_type_text"
+                                                        data-mask="99"
+                                                        maxlength="2"
+                                                        aria-required="true"
+                                                        aria-invalid="false"
+                                                    />
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="sendmoney_wrapper-backSide">
-                            <div class="sendmoney_magneticTape"></div>
-                            <div class="sendmoney_wrapper-cvv">
-                                <div class="sendmoney_input">
-                                    <div class="input">
-                                        <span class="input--nao input-group"
-                                            ><input
-                                                type="password"
-                                                id="input_name_4"
-                                                inputmode="tel"
-                                                name="cvv"
-                                                data-vv-validate-on="blur"
-                                                autocomplete="off"
-                                                class="input__field input__field--nao input_type_text"
-                                                data-mask="999"
-                                                maxlength="3"
-                                                aria-required="true"
-                                                aria-invalid="false"
-                                            />
-                                            <label
-                                                for="input_name_4"
-                                                class="input__label input__label--nao"
-                                                ><span
-                                                    class="input__label-content input__label-content--nao"
-                                                    >Код</span
-                                                ></label
-                                            ></span
-                                        >
+                            <div class="sendmoney_wrapper-backSide">
+                                <div class="sendmoney_magneticTape"></div>
+                                <div class="sendmoney_wrapper-cvv">
+                                    <div class="sendmoney_input">
+                                        <div class="input">
+                                            <label for="input_name_4"
+                                                >Kod</label
+                                            >
+                                            <span
+                                                class="input--nao input-group"
+                                            >
+                                                <input
+                                                    type="password"
+                                                    id="input_name_4"
+                                                    inputmode="tel"
+                                                    name="cvv"
+                                                    data-vv-validate-on="blur"
+                                                    autocomplete="off"
+                                                    class="input__field input__field--nao input_type_text"
+                                                    data-mask="999"
+                                                    maxlength="3"
+                                                    aria-required="true"
+                                                    aria-invalid="false"
+                                                />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="sendmoney_cvv">CVV/CVC2</p>
                                     </div>
                                 </div>
-                                <div>
-                                    <p class="sendmoney_cvv">CVV/CVC2</p>
-                                </div>
+                            </div>
+                            <div class="btn-down">
+                                <h3>К оплате: <span>123$</span></h3>
+                                <button class="btn btn-warning btn-buy">
+                                    Buy
+                                </button>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <h3>К оплате: <span>123$</span></h3>
-                        <button class="btn btn-warning btn-buy">Buy</button>
+                        <p class="error">123</p>
                     </div>
                 </div>
             </div>
+            <div class="clear"></div>
         </main>
 
         <footer class="bg-dark p-4 footer">

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu|Montserrat&display=swap");
-
 * {
     margin: 0;
     padding: 0;
@@ -12,14 +10,22 @@ html {
 }
 
 body {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     font-family: "Lato";
+}
+
+.bg {
     background: rgba(255, 164, 14, 0.16);
 }
 
 main {
     height: 100%;
+}
+
+.clear {
+    margin: 113px;
+    background: rgba(255, 164, 14, 0.16);
 }
 
 .navbar-brand {
@@ -53,10 +59,11 @@ main {
 /* CARD */
 
 .wrapper-card {
-    margin-top: 20%;
-    display: flex;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 }
 
 .sendmoney_wrapper-sender {
@@ -79,13 +86,12 @@ main {
 
 .sendmoney_frontSide-title {
     margin: 0;
-    font-style: 15px;
     font-family: Noto Sans;
     color: #6c6c6c;
 }
 
 .sendmoney_frontSide-form {
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .sendmoney_input {
@@ -97,7 +103,7 @@ main {
 }
 
 input:not([type="checkbox"]) {
-    padding: 21px 22px 2px;
+    padding: 5px;
     box-sizing: border-box;
     font-size: 17px;
     border: 1px solid #cbcbcb;
@@ -109,35 +115,6 @@ input:not([type="checkbox"]) {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-}
-
-.sendmoney_input .input__label--nao {
-    position: absolute;
-    top: 16px;
-    font-size: 17px;
-    left: 0;
-    display: block;
-    width: 100%;
-    text-align: left;
-    padding: 0;
-    pointer-events: none;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transition: -webkit-transform 0.2s, color 1s;
-    transition: transform 0.2s, color 1s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-
-.sendmoney_input .input__label-content {
-    position: relative;
-    display: block;
-    padding-left: 22px;
-    font-weight: 400;
-    width: 100%;
-    opacity: 0.5;
-    font-size: 17px;
-    color: #767676;
 }
 
 .sendmoney_frontSide-cardExpire {
@@ -183,19 +160,20 @@ input:not([type="checkbox"]) {
     margin-top: 7px;
 }
 
-.btn-buy{
-    width: 150px;
+.btn-buy {
+    width: 200px;
     margin: 0 auto;
 }
 
-/* Footer */
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: orange;
+.btn-down{
+    padding-top: 22%;
 }
+
+.btn-down h3{
+    width: 200px;
+}
+
+/* Footer */
 
 .section-5 h4 {
     margin-top: 15px;
@@ -204,6 +182,13 @@ input:not([type="checkbox"]) {
     color: orange;
 }
 
-.section-5 h4 i {
-    color: red !important;
+.payment-title {
+    padding-left: 110px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.payment-title span {
+    padding-bottom: 7px;
+    border-bottom: 5px #ffa40e solid;
 }
