@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CDN CSS file-->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="../../fontawesome-free-5.12.1-web/css/all.css"
+        />
+        <link rel="stylesheet" href="card.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="navbar-brand ml-3"
+                    >Eliza:)<span style="color: yellow;">beth</span>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggler="collapse"
+                    data-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle Navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse"></div>
+                <div class="collapse navbar-collapse" id="navbatMenu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="../src/Screens/MenuScreen/menu.html"
+                                class="nav-link"
+                                >Menu</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Profile</a>
+                        </li>
+                    </ul>
+
+                    <div class="dropdown mr-3">
+                        <button
+                            class="btn btn-outline-warning dropdown-toggle"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            RU/EN
+                        </button>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                        >
+                            <a class="dropdown-item" href="#">RUSSIAN</a>
+                            <a class="dropdown-item" href="#">ENGLISH</a>
+                        </div>
+                    </div>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <button
+                            class="d-flex btn menu-right-btn btn-outline-warning"
+                            type="submit"
+                        >
+                            Basket <span class="ml-2">0</span>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="wrapper-card">
+                    <div class="sendmoney_wrapper-sender">
+                        <div class="sendmoney_wrapper-frontSide">
+                            <p class="sendmoney_frontSide-title">Elizabeth Bank</p>
+                            <div class="sendmoney_frontSide-form">
+                                <div class="sendmoney_input">
+                                    <div class="input">
+                                        <span class="input--nao input-group"
+                                            ><input
+                                                id="input_name_0"
+                                                name="sender_cardNum"
+                                                data-vv-validate-on="blur"
+                                                inputmode="tel"
+                                                autocomplete="off"
+                                                class="input__field input__field--nao input_type_text"
+                                                data-mask="9999 9999 9999 9999"
+                                                maxlength="19"
+                                                aria-required="true"
+                                                aria-invalid="false"
+                                            />
+                                            <label
+                                                for="input_name_0"
+                                                class="input__label input__label--nao"
+                                                ><span
+                                                    class="input__label-content input__label-content--nao"
+                                                    >Номер карты
+                                                    отправителя</span
+                                                ></label
+                                            ></span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="sendmoney_frontSide-cardExpire">
+                                    <div class="sendmoney_input">
+                                        <div class="input">
+                                            <span class="input--nao input-group"
+                                                ><input
+                                                    id="input_name_2"
+                                                    name="expiredMonth"
+                                                    inputmode="tel"
+                                                    data-vv-validate-on="blur"
+                                                    autocomplete="off"
+                                                    class="input__field input__field--nao input_type_text"
+                                                    data-mask="99"
+                                                    maxlength="2"
+                                                    aria-required="true"
+                                                    aria-invalid="false"
+                                                />
+                                                <label
+                                                    for="input_name_2"
+                                                    class="input__label input__label--nao"
+                                                    ><span
+                                                        class="input__label-content input__label-content--nao"
+                                                        >MM</span
+                                                    ></label
+                                                ></span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="sendmoney_input">
+                                        <div class="input">
+                                            <span class="input--nao input-group"
+                                                ><input
+                                                    id="input_name_3"
+                                                    name="expiredYear"
+                                                    inputmode="tel"
+                                                    data-vv-validate-on="blur"
+                                                    autocomplete="off"
+                                                    class="input__field input__field--nao input_type_text"
+                                                    data-mask="99"
+                                                    maxlength="2"
+                                                    aria-required="true"
+                                                    aria-invalid="false"
+                                                />
+                                                <label
+                                                    for="input_name_3"
+                                                    class="input__label input__label--nao"
+                                                    ><span
+                                                        class="input__label-content input__label-content--nao"
+                                                        >ГГ</span
+                                                    ></label
+                                                ></span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sendmoney_wrapper-backSide">
+                            <div class="sendmoney_magneticTape"></div>
+                            <div class="sendmoney_wrapper-cvv">
+                                <div class="sendmoney_input">
+                                    <div class="input">
+                                        <span class="input--nao input-group"
+                                            ><input
+                                                type="password"
+                                                id="input_name_4"
+                                                inputmode="tel"
+                                                name="cvv"
+                                                data-vv-validate-on="blur"
+                                                autocomplete="off"
+                                                class="input__field input__field--nao input_type_text"
+                                                data-mask="999"
+                                                maxlength="3"
+                                                aria-required="true"
+                                                aria-invalid="false"
+                                            />
+                                            <label
+                                                for="input_name_4"
+                                                class="input__label input__label--nao"
+                                                ><span
+                                                    class="input__label-content input__label-content--nao"
+                                                    >Код</span
+                                                ></label
+                                            ></span
+                                        >
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="sendmoney_cvv">CVV/CVC2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>К оплате: <span>123$</span></h3>
+                        <button class="btn btn-warning btn-buy">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark p-4 footer">
+            <div class="section-5 text-center">
+                <h4>Created with <i class="fas fa-heart"></i> by Elizabeth</h4>
+            </div>
+        </footer>
+
+        <!-- Bootstrap CDN CSS file -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
